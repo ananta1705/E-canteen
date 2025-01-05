@@ -1,4 +1,4 @@
-Berikut adalah versi deskripsi E-Canteen yang lebih menarik dan dilengkapi dengan ikon untuk mempercantik tampilan di GitHub:  
+
 
 ---
 
