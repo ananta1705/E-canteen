@@ -40,6 +40,4 @@ Berikut adalah versi deskripsi E-Canteen yang lebih menarik dan dilengkapi denga
 ## 💡 Kontribusi  
 Kami terbuka untuk kontribusi! Jika Anda memiliki ide, perbaikan, atau fitur baru, jangan ragu untuk membuka _pull request_ atau mengajukan _issue_.  
 
----
 
-Bagaimana menurut Anda? Jika perlu, deskripsi ini masih bisa dikembangkan lebih jauh! 😊
