@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">E-KANTIN</a>
+
+      <nav class="navbar">
+         <a href="home.html">home</a>
+         <a href="menu.html">menu</a>
+         <a href="orders.html">orders</a>
+         <a href="contact.html">contact</a>
+      </nav>
+
+      <div class="icons">
+         <a href="search.html"><i class="fas fa-search"></i></a>
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">XI PPLG 1</p>
+         <div class="flex">
+            <a href="profile.html" class="btn">profile</a>
+            <a href="#" class="delete-btn">logout</a>
+         </div>
+         <p class="account"><a href="login.html">login</a> or <a href="register.html">register</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<section class="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="content">
+               <span>order online</span>
+               <h3>SEGA RAMES</h3>
+               <a href="menu.html" class="btn">see menus</a>
+            </div>
+            <div class="image">
+               <img src="https://img.freepik.com/free-vector/engraving-hand-drawn-nasi-lemak_23-2148944384.jpg?w=740&t=st=1676381872~exp=1676382472~hmac=c3d5143566fde0ade71c25b9b0c17fcc921f35158622eb1dbdb4fb83eef286da" alt="">
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="content">
+               <span>order online</span>
+               <h3>AYAM GEPREK</h3>
+               <a href="menu.html" class="btn">see menus</a>
+            </div>
+            <div class="image">
+               <img src="https://img.freepik.com/free-photo/crispy-fried-chicken-plate-with-salad-carrot_1150-20212.jpg?w=996&t=st=1676382484~exp=1676383084~hmac=838a54173929114d1a7ea4f452e760affac3edf05ff372aa6b8d1f559c715fcf" alt="">
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="content">
+               <span>order online</span>
+               <h3>NASI GORENG</h3>
+               <a href="menu.html" class="btn">see menus</a>
+            </div>
+            <div class="image">
+               <img src="nasgor.png" alt="">
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<section class="category">
+
+   <h1 class="title">food category</h1>
+
+   <div class="box-container">
+
+      <a href="category.html" class="box">
+         <img src="images/cat-1.png" alt="">
+         <h3>fast food</h3>
+      </a>
+   
+      <a href="category.html" class="box">
+         <img src="images/cat-3.png" alt="">
+         <h3>drinks</h3>
+      </a>
+   
+     
+
+   </div>
+
+</section>
+
+<section class="products">
+
+   <h1 class="title">LIST MENU</h1>
+
+   <div class="box-container">
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="pop mie.png" alt="">
+         <a href="category.html" class="cat">fast food</a>
+         <div class="name"> POP MIE</div>
+         <div class="flex">
+            <div class="price"><span>Rp</span>3<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://images.tokopedia.net/img/cache/700/product-1/2018/3/24/0/0_9d7e578f-07f2-456f-aa89-01e6f33b83b8_540_333.jpg" alt="">
+         <a href="category.html" class="cat">dishes</a>
+         <div class="name">POP ICE</div>
+         <div class="flex">
+            <div class="price"><span>Rp</span>3<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="risol.png" alt="">
+         <a href="category.html" class="cat">fast food</a>
+         <div class="name">Risol Mayo</div>
+         <div class="flex">
+            <div class="price"><span>Rp</span>3<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="marimas.png" alt="">
+         <a href="category.html" class="cat">drink</a>
+         <div class="name">MARIMAS</div>
+         <div class="flex">
+            <div class="price"><span>Rp</span>3<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="indomie.png" alt="">
+         <a href="category.html" class="cat">fats food</a>
+         <div class="name">INDOMIE</div>
+         <div class="flex">
+            <div class="price"><span>Rp</span>3<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="kopi.png" alt="">
+         <a href="category.html" class="cat">drinks</a>
+         <div class="name">VARIAN KOPI</div>
+         <div class="flex">
+            <div class="price"><span>Rp</span>3<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+   </div>
+
+   <div class="more-btn">
+      <a href="menu.html" class="btn">view all</a>
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   <section class="box-container">
+
+      <div class="box">
+         <img src="images/email-icon.png" alt="">
+         <h3>email</h3>
+         <a href="mailto:adminpplg@gmail.com">adminpplg@gmail.com</a>
+         <a href="mailto:anantaputi@gmail.com">anantaputi@gmail.com</a>
+      </div>
+
+      <div class="box">
+         <img src="images/clock-icon.png" alt="">
+         <h3>open kantin</h3>
+         <p>00:07am to 15:00pm </p>
+      </div>
+
+      <div class="box">
+         <img src="images/phone-icon.png" alt="">
+         <h3>our number</h3>
+         <a href="tel:1234567890">0894734734873</a>
+         <a href="tel:1112223333">0873453645364</a>
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; copyright @ 2023 by <span>XI PPLG 1</span> | all rights reserved!</div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="loader">
+   <img src="images/loader.gif" alt="">
+</div>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+<script>
+
+var swiper = new Swiper(".home-slider", {
+   loop:true,
+   grabCursor:true,
+   effect: "flip",
+   pagination: {
+      el: ".swiper-pagination",
+      clickable:true,
+   },
+});
+
+</script>
+
+</body>
+</html>
